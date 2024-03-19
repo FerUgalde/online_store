@@ -36,21 +36,21 @@ function Catalog() {
       price: 91.02,
       category: "static",
       image: "pole.jpeg",
-      _id: "4",
+      _id: "5",
     },
     {
       title: "Lolipop Hoop",
       price: 90.16,
       category: "static",
       image: "lolipop_hoop.jpg",
-      _id: "4",
+      _id: "6",
     },
     {
       title: "Aerial Pole",
       price: 89.99,
       category: "aerial",
       image: "aerial_pole.jpg",
-      _id: "4",
+      _id: "7",
     },
   ];
 
