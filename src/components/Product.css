@@ -4,7 +4,7 @@
 
   display: inline-block;
   width: 300px;
-  height: 380px;
+  height: 440px;
   border-radius: 4px;
   margin: 5px 7px 12px 0;
 }
@@ -13,4 +13,13 @@
   font-size: 22px;
   font-family: "Segoe UI", sans-serif;
   margin: 10px 0 5px 0;
+}
+
+.product img {
+  width: 250px;
+  height: 250px;
+}
+
+.buttonAdd {
+  margin-top: 20px;
 }
