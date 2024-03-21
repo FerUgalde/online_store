@@ -1,0 +1,20 @@
+.about {
+  background-color: azure;
+}
+
+.about h3 {
+  color: cadetblue;
+  margin: 10px 0;
+}
+
+.about .box {
+  background-color: #e5cdf0;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -3,6 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Catalog from "./pages/Catalog";
+import About from "./pages/About";
+import ShoppingList from "./pages/ShoppingList";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -13,6 +15,8 @@ function App() {
       <Navbar />
 
       <Catalog />
+      <About />
+      <ShoppingList />
 
       <Footer />
     </div>

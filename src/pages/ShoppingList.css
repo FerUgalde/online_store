@@ -1,0 +1,28 @@
+.shopping-list {
+  background-color: rgb(213, 236, 236);
+}
+.shopping-list h3 {
+  color: darkcyan;
+  margin: 10px 0;
+}
+.inputAdd {
+  margin: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-group {
+  width: 500px !important;
+}
+
+.shopping-list li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e5cdf0;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
