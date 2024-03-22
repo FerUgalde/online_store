@@ -20,7 +20,7 @@ function About() {
           </p>
         </div>
       ) : null}
-      <button className="btn btn-outline-success" onClick={showBox}>
+      <button className="btn btn-success" onClick={showBox}>
         View Contact Info
       </button>
     </div>

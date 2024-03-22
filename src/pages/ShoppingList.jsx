@@ -15,7 +15,7 @@ function ShoppingList() {
       <h3>Shopping List</h3>
       <div className="inputAdd input-group mb-3">
         <input className="form-control" type="text" />
-        <button className="btn btn-outline-success" onClick={addItem}>
+        <button className="btn btn-success" onClick={addItem}>
           Add
         </button>
       </div>

@@ -1,8 +1,9 @@
 .footer {
-  background-color: rgb(180, 135, 223);
+  background-color: black;
   padding-bottom: 15px;
   padding-top: 0;
   margin: 0;
+  color: white;
 }
 
 .footer h1 {
