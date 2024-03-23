@@ -1,0 +1,25 @@
+.admin {
+  background-color: rgb(48, 117, 117);
+  padding-bottom: 5px;
+}
+.admin h1 {
+  color: rgb(241, 240, 235);
+  padding: 10px 0;
+}
+.admin .parent {
+  display: flex;
+  padding-bottom: 5px;
+  gap: 50px;
+  margin: 20px 40px;
+  height: 65vh;
+}
+.prods-admin {
+  flex: 2;
+  background-color: rgb(171, 210, 211);
+  border-radius: 5px;
+}
+.coupons-admin {
+  flex: 1;
+  background-color: rgb(171, 210, 211);
+  border-radius: 5px;
+}

@@ -16,6 +16,10 @@
   width: 500px !important;
 }
 
+.input-group button {
+  margin: 0 5px;
+}
+
 .shopping-list li {
   list-style-type: none;
   margin: 10px;

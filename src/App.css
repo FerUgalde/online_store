@@ -38,5 +38,5 @@
 }
 
 .page {
-  min-height: calc(100vh - 195px); /* 100vh - header px - footer px */
+  min-height: calc(100vh - 156px); /* 100vh - header px - footer px */
 }
