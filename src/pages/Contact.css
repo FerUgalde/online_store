@@ -1,0 +1,21 @@
+.contact {
+  background-color: rgb(171, 210, 211);
+}
+
+.contact h1 {
+  color: black;
+  padding: 10px 0;
+}
+
+.contact .info {
+  background-color: rgb(48, 117, 117);
+  color: rgb(241, 240, 235);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+
+  margin-left: auto;
+  margin-right: auto;
+}

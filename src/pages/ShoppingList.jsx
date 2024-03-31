@@ -3,7 +3,7 @@ import "./ShoppingList.css";
 
 function ShoppingList() {
   const [list, setList] = useState(["Test 1", "Test 2", "Test 3"]);
-  const [text, setText] = useState([""]);
+  const [text, setText] = useState("");
 
   function addItem() {
     /**
