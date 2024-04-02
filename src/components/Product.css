@@ -23,3 +23,8 @@
 .buttonAdd {
   margin-top: 20px;
 }
+
+.product .total {
+  color: tomato;
+  font-weight: bold;
+}

@@ -7,12 +7,14 @@ function QuantityPicker(props) {
   function increase() {
     let newVal = quantity + 1;
     setQt(newVal);
+    props.onChange(newVal);
   }
 
   function decrease() {
     let newVal = quantity - 1;
     if (newVal > 0) {
       setQt(newVal);
+      props.onChange(newVal);
     }
   }
 
@@ -20,7 +22,7 @@ function QuantityPicker(props) {
     <div className="quantity-picker">
       <button
         className="btn btn-sm btn-outline-success"
-        disabled={quantity == 1}
+        disabled={quantity === 1}
         onClick={decrease}
       >
         -
@@ -29,9 +31,9 @@ function QuantityPicker(props) {
       <button className="btn btn-sm btn-outline-success" onClick={increase}>
         +
       </button>
-      <div>
+      {/* <div>
         <label>Total: ${props.price * quantity}</label>
-      </div>
+      </div> */}
     </div>
   );
 }
