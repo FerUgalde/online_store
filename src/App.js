@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Admin from "./pages/Admin";
 import Contact from "./pages/Contact";
 import GlobalProvider from "./context/GlobalProvider";
+import Cart from "./pages/Cart";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -30,6 +31,7 @@ function App() {
             <Route path="/shoppingList" element={<ShoppingList />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/admin" element={<Admin />} />
+            <Route path="/cart" element={<Cart />} />
           </Routes>
 
           <Footer />

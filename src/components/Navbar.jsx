@@ -16,6 +16,16 @@ import { FaCartPlus } from "react-icons/fa";
 
 function Navbar() {
   const cart = useContext(DataContext).cart;
+  console.log(cart);
+
+  function getNumProducts() {
+    let total = 0;
+    for (let i = 0; i < cart.length; i++) {
+      let prod = cart[i];
+      total += prod.quantity;
+    }
+    return total;
+  }
 
   return (
     <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
@@ -57,9 +67,9 @@ function Navbar() {
             </li>
           </ul>
           <div className="d-flex" role="search">
-            <button className="btn btn-outline-light" type="button">
-              {cart.length} Your Cart <FaCartPlus />
-            </button>
+            <Link className="btn btn-outline-light" to="/cart">
+              {getNumProducts()} Your Cart <FaCartPlus />
+            </Link>
           </div>
         </div>
       </div>
