@@ -1,0 +1,8 @@
+# create a venv
+py -m venv venv
+
+# activate
+vanv\Scripts\activate
+
+## mac
+source venv/bin/activate
