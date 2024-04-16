@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Admin.css";
+import DataService from "../services/dataService";
 
 function Admin() {
   const [coupon, setCoupon] = useState({
@@ -41,9 +42,16 @@ function Admin() {
   }
 
   function saveProduct() {
+    console.log(product);
+    product.price = parseFloat(product.price);
+
     let copy = [...allProducts];
     copy.push(product);
     setAllProducts(copy);
+
+    // send the product to the server
+    let service = new DataService();
+    service.saveProduct(product);
   }
 
   return (
@@ -78,8 +86,7 @@ function Admin() {
               <label className="form-label">Image</label>
               <input
                 onChange={handleProductChange}
-                type="file"
-                alt=""
+                type="text"
                 name="image"
                 className="form-control"
               />

@@ -4,5 +4,30 @@ py -m venv venv
 # activate
 vanv\Scripts\activate
 
+# be
+py server.py
+
+# fe
+npm start //node project managment
+
 ## mac
 source venv/bin/activate
+
+
+
+# backend
+
+1 - terminal to the server folder
+
+2 - activate the virtual env (venv\Scripts\activate) or (source venv\bin\activate)
+
+3 - run the server (py server.py) or (python3 server.py)
+
+ 
+
+# front end
+
+1 - terminal to the app folder
+
+2 - run the frontend (npm start)
+
